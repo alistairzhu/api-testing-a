@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="RestAssured">
+    <output-path>$PROJECT_DIR$/classes/artifacts/RestAssured</output-path>
+    <root id="root">
+      <element id="archive" name="archive.jar" />
+      <element id="archive" name="api-testing.jar">
+        <element id="module-output" name="api-testing" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
